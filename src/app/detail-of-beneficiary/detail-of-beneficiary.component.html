@@ -1,0 +1,18 @@
+<div class="table-container">
+<mat-card>
+      <mat-card-header> <h1>Beneficiary Details</h1></mat-card-header>
+      <hr>
+<mat-card-content>
+<hr>
+<p><label>Name: </label>{{datas?.name}}</p>
+
+      <p><label>Adress: </label>{{datas?.address}}</p>
+      <p><label>Age: </label>{{datas?.age}}</p>
+      <p><label>Contact Information: </label>{{datas?.contact_information}}</p>
+      <p><label>Relationship: </label>{{datas?.relationship}}</p>
+      <br>
+      <hr>
+      <button mat-raised-button  color="primary" class="goBack_btn" type="submit" mat-button (click)="goBack()">Back</button>
+</mat-card-content>
+</mat-card>
+</div>
